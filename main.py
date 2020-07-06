@@ -19,11 +19,18 @@ def kysymys3(kysymyslista):
     else:
         print("vastaa a, b tai c")
 #Kysymys4
+def kysymys4(kysymyslista):
+    vastaus = input("Kysymys:Väite: Julkinen aliverkko on saavutettavissa internetyhteyden kautta ja yksityinen ei ole\na)vaihtoehto Kyllä\nb)vaihtoehto Ei kaikki verkot ovat internetin välityksellä\nc)vaihtoehto Ei mikään aliverkko ei ole saavutettavissa internetin välityksellä\nVastauksesi: ").lower()
+    if vastaus =="a" or vastaus=="b" or vastaus=="c":
+        if vastaus =="a":
+            oikeat_vastaukset +=1
 
 #Kysymys5
-
-
-
+def kysymys5(kysymyslista):
+    vastaus = input("Kysymys:Onko S3 Amazonin palvelu\na)vaihtoehto Ei\nb)vaihtoehto Kyllä\nc)vaihtoehto En tiedä\nVastauksesi: ").lower()
+    if vastaus =="a" or vastaus=="b" or vastaus=="c":
+        if vastaus =="b":
+            oikeat_vastaukset +=1
 
 oikeat_vastaukset = 0
 kysymyslista = [1,2,3,4,5]
