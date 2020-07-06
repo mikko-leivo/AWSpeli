@@ -1,13 +1,26 @@
 #Funktiot eli kysymykset
 
 #Kysymys1
-
+def kysymys1(kysymyslista):
+    vastaus = input("Millä toiminnolla saat kaksi VPC:tä kommunikoimaan keskenään:\na)Endpoint\nb)NAT Gateway\nc)Peering Connection\nVastauksesi: ").lower()
+    if vastaus =="a" or vastaus=="b" or vastaus=="c":
+        if vastaus =="c":
+            oikeat_vastaukset +=1
+    else:
+        print("vastaa a, b tai c")
         # onko mikolla isot jalat:
         # a)on
         # b)on tosi isot
         # c)no ihan helvetin isot
         # d) pienet ja kauniit
 #Kysymys2
+def kysymys2(kysymyslista):
+    vastaus = input("Millä komennolla listaat tiedostoja s3 bucketista Puttyssa:\na)ls -la\nb)ls\nc)list\nVastauksesi: ").lower()
+    if vastaus =="a" or vastaus=="b" or vastaus=="c":
+        if vastaus =="b":
+            oikeat_vastaukset +=1
+    else:
+        print("vastaa a, b tai c")
 
 #Kysymys3
 def kysymys3(kysymyslista):
