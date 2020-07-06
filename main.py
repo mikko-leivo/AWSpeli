@@ -8,11 +8,7 @@ def kysymys1(kysymyslista):
             oikeat_vastaukset +=1
     else:
         print("vastaa a, b tai c")
-        # onko mikolla isot jalat:
-        # a)on
-        # b)on tosi isot
-        # c)no ihan helvetin isot
-        # d) pienet ja kauniit
+
 #Kysymys2
 def kysymys2(kysymyslista):
     vastaus = input("Millä komennolla listaat tiedostoja s3 bucketista Puttyssa:\na)ls -la\nb)ls\nc)list\nVastauksesi: ").lower()
@@ -31,6 +27,7 @@ def kysymys3(kysymyslista):
             print("Vastasit oikein")
     else:
         print("vastaa a, b tai c")
+
 #Kysymys4
 def kysymys4(kysymyslista):
     vastaus = input("Kysymys:Väite: Julkinen aliverkko on saavutettavissa internetyhteyden kautta ja yksityinen ei ole\na)vaihtoehto Kyllä\nb)vaihtoehto Ei kaikki verkot ovat internetin välityksellä\nc)vaihtoehto Ei mikään aliverkko ei ole saavutettavissa internetin välityksellä\nVastauksesi: ").lower()
